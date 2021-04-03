@@ -33,6 +33,11 @@ export default function Intro() {
         Rite Aid, Safeway, Vons, Walgreens, Walgreens Specialty Pharmacy,
         Walmart
       </p>
+      <p>
+        {" "}
+        <span style={{ fontWeight: "bold" }}>Checked Area:</span> San Francisco,
+        Santa Clara County, Alameda County
+      </p>
     </div>
   );
 }
