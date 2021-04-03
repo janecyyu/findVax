@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import HealingIcon from "@material-ui/icons/Healing";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,18 +30,43 @@ export default function ButtonAppBar() {
         style={{ background: "rgb(0, 51, 130)", color: "white" }}
       >
         <Toolbar>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="menu"
+          <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+            <IconButton
+              edge="start"
+              className={classes.menuButton}
+              color="inherit"
+              aria-label="menu"
+            >
+              <HealingIcon />
+            </IconButton>
+          </Link>
+          <Typography
+            variant="h6"
+            className={classes.title}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+            }}
           >
-            <HealingIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            VaxBay
+            <Link
+              to="/"
+              style={{
+                textDecoration: "none",
+                color: "white",
+                textAlign: "center",
+              }}
+            >
+              VaxBay
+            </Link>
           </Typography>
-          <Button color="inherit">About</Button>
+          <Button color="inherit">
+            <Link
+              to="/about"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              About
+            </Link>
+          </Button>
         </Toolbar>
       </AppBar>
     </div>
