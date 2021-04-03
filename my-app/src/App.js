@@ -1,7 +1,6 @@
 import "./App.css";
 import VaxGrid from "./components/VaxGrid";
 import Intro from "./components/Intro";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -36,6 +35,18 @@ function App() {
             Vaccine Notifier
           </a>
         </p>
+        <a
+          name="fb_share"
+          type="button_count"
+          href="http://www.facebook.com/sharer.php?appId={YOUR APP ID}&link=<?php the_permalink() ?>"
+          rel="nofollow"
+        >
+          Share
+        </a>
+        <script
+          src="http://static.ak.fbcdn.net/connect.php/js/FB.Share"
+          type="text/javascript"
+        ></script>
       </div>
     </div>
   );

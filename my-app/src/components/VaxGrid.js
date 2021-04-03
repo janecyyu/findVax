@@ -25,11 +25,7 @@ export default function Vaxgrid() {
 
   return (
     <div className="grid">
-      <div className="available">
-        Available for{" "}
-        <span style={{ textDecoration: "underline" }}>All Doses</span> or{" "}
-        <span style={{ textDecoration: "underline" }}>2nd does only</span>:
-      </div>
+      <div className="available">Available:</div>
       <KeyboardArrowDownIcon />
 
       <div>
