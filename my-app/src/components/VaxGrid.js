@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import zipCodes from "../recources/zipCodes";
+import VaxCard from "./VaxCard";
 
 export default function Vaxgrid() {
   const [clinics, setClinics] = useState([]);
@@ -25,9 +26,10 @@ export default function Vaxgrid() {
     <div>
       <h1>Hi Vax</h1>
       <div>
-        {clinics.map((clinic) => (
-          <h2>{clinic.properties.name}</h2>
-        ))}
+        {clinics.map((clinic, index) => {
+          //   <h2 key={index}>{clinic.properties.name}</h2>
+          return <VaxCard key={index} clinic={clinic} />;
+        })}
       </div>
     </div>
   );
