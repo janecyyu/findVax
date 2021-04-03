@@ -45,6 +45,10 @@ export default function ComplexGrid(props) {
     );
   }
   time = String(convertTZ(time, "America/Los_Angeles")).slice(4, 21);
+  let all_dose = props.clinic.properties.appointments_available_all_doses
+    ? "ok"
+    : "no";
+
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
@@ -70,11 +74,6 @@ export default function ComplexGrid(props) {
                   {props.clinic.properties.city}{" "}
                   {props.clinic.properties.postal_code}
                 </Typography>
-                <Typography variant="body2" gutterBottom>
-                  available_all_doses:
-                  {props.clinic.properties.appointments_available_all_doses}
-                  ?"ok":"no"
-                </Typography>
               </Grid>
               <Grid item>
                 <a
@@ -94,9 +93,6 @@ export default function ComplexGrid(props) {
                 Last updated on {JSON.stringify(time)} PDT
               </Typography>
             </Grid>
-            {/* <Grid item>
-              <Typography variant="subtitle1">$19.00</Typography>
-            </Grid> */}
           </Grid>
         </Grid>
       </Paper>

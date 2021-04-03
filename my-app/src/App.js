@@ -30,6 +30,13 @@ function App() {
             Stanford Healthcare
           </a>
         </p>
+        <p>
+          {" "}
+          Join wait list: <a href="https://hidrb.com/">Dr.B,</a>{" "}
+          <a href="https://extravaccinenotifier.com/get-a-vaccine/">
+            Vaccine Notifier
+          </a>
+        </p>
       </div>
     </div>
   );

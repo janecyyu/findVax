@@ -14,9 +14,10 @@ export default function Intro() {
         </span>{" "}
         is a COVID-19 vaccines appointments tracker, and the data will update as
         much as possible. Refresh the page as you want. We understand how hard
-        to find open appointments which close to us, so hopefully, this project
-        can help our neighbors in the bay area find the best and fast vaccine
-        appointment in ours local. 
+        to find a open appointment which close to us, and how crazy that people
+        have to open tons of webpages and fresh them all the time. Hopefully,
+        this project can help our neighbors in the bay area find the "best for
+        you" vaccine appointments in ours local. 
       </p>
       <div>
         <FavoriteBorderIcon />
