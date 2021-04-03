@@ -9,21 +9,22 @@ export default function About() {
         This project is inspired by some volunteer developers like Nick, creator
         of <a href="https://www.vaccinespotter.org/">VaccineSpotter.org</a> and
         Huge from <a href="https://www.turbovax.info/">TurboVax</a> . I always
-        want to something during the pandemic, and this is what I can do. I know
-        this may not help people 100% get their appointments, but if some of you
-        can successfully get your or your family's, friends', neighbors'
-        covid-19 vaccines through here. I am very honored!
+        wanted to help during the pandemic, and this is what I thought of to
+        contribute. I know this may not guarantee people to get their
+        appointments, but if some of you can successfully get your or your
+        family's, friends', neighbors' COVID-19 vaccines through here, I would
+        be very honored!
         <br />
-        <br /> The past year was full of changes, but remember:{" "}
+        <br /> The past year was full of challenges, but remember:{" "}
         <span style={{ color: "rgb(127, 15, 15)" }}>
-          We are same, we are together, together, we're strong!
+          We are same, we are together. Together, we're strong!
         </span>{" "}
       </p>
       <br />
-      <h1>Source</h1>
+      <h1>Sources</h1>
       <p>
         <a href="https://www.vaccinespotter.org/">VaccineSpotter.org,</a>{" "}
-        <a href="https://www.vaccinespotter.org/api/"> Very Beta API </a>
+        <a href="https://www.vaccinespotter.org/api/">Very Beta API </a>
       </p>
       <br />
       <h1>Team</h1>
@@ -42,7 +43,7 @@ export default function About() {
           📧
         </a>
         {"   "}
-        come to say hi or share your "Got Vaccine" sticker!
+        Come to say hi or share your "Got my vaccine" sticker!
       </p>
       <br />
     </div>

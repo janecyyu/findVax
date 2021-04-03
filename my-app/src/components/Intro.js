@@ -12,12 +12,12 @@ export default function Intro() {
         <span style={{ color: "red", fontWeight: "bold", fontSize: "1.2rem" }}>
           VaxBay
         </span>{" "}
-        is a COVID-19 vaccines appointments tracker, and the data will update as
-        much as possible. Refresh the page as you want. We understand how hard
-        to find a open appointment which close to us, and how crazy that people
-        have to open tons of webpages and fresh them all the time. Hopefully,
-        this project can help our neighbors in the bay area find the "best for
-        you" vaccine appointments in ours local. 
+        is a COVID-19 vaccines appointments tracker, and the data is as up to
+        date as possible. Refresh the page as needed. We understand how hard it
+        is to find an open appointment close to us, and how crazy it is that
+        people have to open tons of webpages and refresh them all the time.
+        Hopefully, this project can help our neighbors in the bay area find the
+        closest vaccine appointments to us. 
       </p>
       <div>
         <FavoriteBorderIcon />
@@ -28,7 +28,7 @@ export default function Intro() {
       </div>
       <p>
         {" "}
-        <span style={{ fontWeight: "bold" }}>Checked Pharmacy:</span>{" "}
+        <span style={{ fontWeight: "bold" }}>Checked Pharmacies:</span>{" "}
         Albertsons, Community (Walgreens), CVS, Dominguez (Walgreens), Kroger
         COVID, Pak 'n Save, Pavilions, Pharmaca, Pioneer (Walgreens), Ralphs,
         Rite Aid, Safeway, Vons, Walgreens, Walgreens Specialty Pharmacy,
@@ -36,13 +36,13 @@ export default function Intro() {
       </p>
       <p>
         {" "}
-        <span style={{ fontWeight: "bold" }}>Checked Area:</span> San Francisco,
-        Santa Clara County, Alameda County
+        <span style={{ fontWeight: "bold" }}>Checked Areas:</span> San
+        Francisco, Santa Clara County, Alameda County
       </p>
       <p>
-        <span style={{ fontWeight: "bold" }}>Note that:</span> Due to the high
-        demand, we are not 100% guarantee the availabilities are working, but we
-        try our best to give people the latest data! 🔥
+        <span style={{ fontWeight: "bold" }}>Note that:</span> Due to high
+        demand, we cannot guarantee 100% the availabilities are up to date, but
+        we try our best to give people the latest data! 🔥
       </p>
     </div>
   );
