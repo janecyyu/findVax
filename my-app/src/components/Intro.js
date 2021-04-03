@@ -39,6 +39,11 @@ export default function Intro() {
         <span style={{ fontWeight: "bold" }}>Checked Area:</span> San Francisco,
         Santa Clara County, Alameda County
       </p>
+      <p>
+        <span style={{ fontWeight: "bold" }}>Note that:</span> Due to the high
+        demand, we are not 100% guarantee the availabilities are working, but we
+        try our best to give people the latest data! 🔥
+      </p>
     </div>
   );
 }
