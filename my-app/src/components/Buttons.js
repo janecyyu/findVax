@@ -16,7 +16,10 @@ export default function ContainedButtons() {
   return (
     <div className={classes.root}>
       {/* <Button variant="contained">Default</Button> */}
-      <Button variant="contained" color="primary">
+      <Button
+        variant="contained"
+        style={{ background: "rgb(0, 51, 130)", color: "white" }}
+      >
         Go to Book
       </Button>
       {/* <Button variant="contained" color="secondary">

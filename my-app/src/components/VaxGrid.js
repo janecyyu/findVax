@@ -23,11 +23,9 @@ export default function Vaxgrid() {
   console.log(clinics);
 
   return (
-    <div>
-      <h1>Hi Vax</h1>
+    <div className="grid">
       <div>
         {clinics.map((clinic, index) => {
-          //   <h2 key={index}>{clinic.properties.name}</h2>
           return <VaxCard key={index} clinic={clinic} />;
         })}
       </div>
