@@ -34,10 +34,11 @@ export default function Vaxgrid() {
             return <VaxCard key={index} clinic={clinic} />;
           })
         ) : (
-          <p>
+          <p className="intro">
             So Sorry! There are no available appointments now, but don't worry!
-            The data is updating every minute! Please refresh the page few
-            minutes later.
+            The data is updating every minute! Please refresh the page for few
+            minutes later. Once there are any new release in bay area, will show
+            on the page.
           </p>
         )}
       </div>
