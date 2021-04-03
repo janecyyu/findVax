@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import zipCodes from "../recources/zipCodes";
+import zipCodes from "../data/zipCodes";
 import VaxCard from "./VaxCard";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
