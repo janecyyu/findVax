@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import zipCodes from "../recources/zipCodes";
 import VaxCard from "./VaxCard";
+import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
 export default function Vaxgrid() {
   const [clinics, setClinics] = useState([]);
@@ -24,6 +25,9 @@ export default function Vaxgrid() {
 
   return (
     <div className="grid">
+      <div className="available">Available:</div>
+      <KeyboardArrowDownIcon />
+
       <div>
         {clinics.map((clinic, index) => {
           return <VaxCard key={index} clinic={clinic} />;
