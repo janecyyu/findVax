@@ -29,9 +29,17 @@ export default function Vaxgrid() {
       <KeyboardArrowDownIcon />
 
       <div>
-        {clinics.map((clinic, index) => {
-          return <VaxCard key={index} clinic={clinic} />;
-        })}
+        {clinics.length > 0 ? (
+          clinics.map((clinic, index) => {
+            return <VaxCard key={index} clinic={clinic} />;
+          })
+        ) : (
+          <p>
+            So Sorry! There are no available appointments now, but don't worry!
+            The data is updating every minute! Please refresh the page few
+            minutes later.
+          </p>
+        )}
       </div>
     </div>
   );

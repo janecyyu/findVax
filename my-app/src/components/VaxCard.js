@@ -70,6 +70,11 @@ export default function ComplexGrid(props) {
                   {props.clinic.properties.city}{" "}
                   {props.clinic.properties.postal_code}
                 </Typography>
+                <Typography variant="body2" gutterBottom>
+                  available_all_doses:
+                  {props.clinic.properties.appointments_available_all_doses}
+                  ?"ok":"no"
+                </Typography>
               </Grid>
               <Grid item>
                 <a
@@ -78,7 +83,7 @@ export default function ComplexGrid(props) {
                   href={props.clinic.properties.url}
                   target="_blank"
                 >
-                  <Button></Button>
+                  <Button />
                 </a>
               </Grid>
               <Typography
