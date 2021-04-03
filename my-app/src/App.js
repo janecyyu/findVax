@@ -1,6 +1,7 @@
 import "./App.css";
 import VaxGrid from "./components/VaxGrid";
 import Intro from "./components/Intro";
+import Iframe from "react-iframe";
 
 function App() {
   return (
@@ -35,18 +36,18 @@ function App() {
             Vaccine Notifier
           </a>
         </p>
-        <a
-          name="fb_share"
-          type="button_count"
-          href="http://www.facebook.com/sharer.php?appId={YOUR APP ID}&link=<?php the_permalink() ?>"
-          rel="nofollow"
-        >
-          Share
-        </a>
-        <script
-          src="http://static.ak.fbcdn.net/connect.php/js/FB.Share"
-          type="text/javascript"
-        ></script>
+        <div className="share">
+          <Iframe
+            src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.vaxbay.com%2F&layout=button&size=small&width=60&height=20&appId"
+            width="60"
+            height="20"
+            style="border:none;overflow:hidden"
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          ></Iframe>
+        </div>
       </div>
     </div>
   );

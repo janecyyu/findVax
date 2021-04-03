@@ -25,3 +25,7 @@ code {
   margin-bottom: 1%;
   font-weight: bold;
 }
+.share{
+  display: flex;
+  justify-content: center;
+}
