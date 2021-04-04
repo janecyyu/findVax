@@ -33,18 +33,9 @@ export default function ComplexGrid(props) {
     " " +
     props.clinic.properties.appointments_last_fetched.slice(11, 19) +
     "+0000";
-  function convertTZ(date, tzString) {
-    return new Date(
-      (typeof date === "string" ? new Date(date) : date).toLocaleString(
-        "en-US",
-        { timeZone: tzString }
-      )
-    );
-  }
-  time = String(convertTZ(time, "America/Los_Angeles")).slice(4, 21);
-  let all_dose = props.clinic.properties.appointments_available_all_doses
-    ? "ok"
-    : "no";
+
+  var a = time.split(/[^0-9]/);
+  var d = new Date(a[0], a[1] - 1, a[2], a[3], a[4] - 420, a[5]);
 
   return (
     <div className={classes.root}>
@@ -82,7 +73,7 @@ export default function ComplexGrid(props) {
                 gutterBottom
                 style={{ fontSize: "12px" }}
               >
-                Last updated on {JSON.stringify(time)} PDT
+                Last updated on {d.toString().slice(0, 21)} PDT
               </Typography>
             </Grid>
           </Grid>
