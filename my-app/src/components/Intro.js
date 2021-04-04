@@ -1,14 +1,14 @@
-import React from "react";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import LocalFloristIcon from "@material-ui/icons/LocalFlorist";
-import EmojiEmotionsIcon from "@material-ui/icons/EmojiEmotions";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
+import LocalFloristIcon from "@material-ui/icons/LocalFlorist";
+import React from "react";
 
 export default function Intro() {
   return (
     <div className="intro">
       <p>
+        
         <span style={{ color: "red", fontWeight: "bold", fontSize: "1.2rem" }}>
           VaxBay
         </span>{" "}

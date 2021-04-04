@@ -1,8 +1,8 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
+import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
+import React from "react";
 import Button from "./Buttons";
 
 const useStyles = makeStyles((theme) => ({
@@ -64,6 +64,7 @@ export default function ComplexGrid(props) {
                   style={{ cursor: "pointer", textDecoration: "none" }}
                   href={props.clinic.properties.url}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <Button />
                 </a>

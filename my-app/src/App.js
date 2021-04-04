@@ -1,7 +1,7 @@
-import "./App.css";
-import VaxGrid from "./components/VaxGrid";
-import Intro from "./components/Intro";
 import Iframe from "react-iframe";
+import "./App.css";
+import Intro from "./components/Intro";
+import VaxGrid from "./components/VaxGrid";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <a
             href="https://healthy.kaiserpermanente.org/southern-california/health-wellness/coronavirus-information/covid-vaccine"
             target="_blank"
+            rel="noreferrer"
           >
             Kaiser
           </a>
@@ -21,6 +22,7 @@ function App() {
           <a
             href="https://www.sutterhealth.org/pamf/for-patients/health-alerts/covid-19-vaccine"
             target="_blank"
+            rel="noreferrer"
           >
             Palo Alto Medical Foundation
           </a>
@@ -41,7 +43,7 @@ function App() {
             src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.vaxbay.com%2F&layout=button&size=small&width=60&height=20&appId"
             width="60"
             height="20"
-            style="border:none;overflow:hidden"
+            style={{ border: "none", overflow: "hidden" }}
             scrolling="no"
             frameborder="0"
             allowfullscreen="true"
