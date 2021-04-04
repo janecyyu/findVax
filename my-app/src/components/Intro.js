@@ -37,7 +37,7 @@ export default function Intro() {
       <p>
         {" "}
         <span style={{ fontWeight: "bold" }}>Checked Areas:</span> San
-        Francisco, Santa Clara County, Alameda County
+        Francisco, San Mateo County, Santa Clara County, Alameda County
       </p>
       <p>
         <span style={{ fontWeight: "bold" }}>Note that:</span> Due to high
