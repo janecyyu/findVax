@@ -24,7 +24,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Palo Alto Medical Foundation
+            Sutter Health
           </a>
           ,{" "}
           <a href="https://stanfordhealthcare.org/discover/covid-19-resource-center.html">
