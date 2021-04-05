@@ -14,7 +14,7 @@ ReactDOM.render(
       <Bar />
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
-      <div className="share" style={{ margin: "2%" }}>
+      <div className="share" style={{ margin: "1rem" }}>
         2021 © VaxBay
       </div>
       <Disclaimer />
