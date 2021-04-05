@@ -1,6 +1,5 @@
 import Iframe from "react-iframe";
 import "./App.css";
-import Disclaimer from "./components/Disclaimer";
 import Intro from "./components/Intro";
 import VaxGrid from "./components/VaxGrid";
 
@@ -51,7 +50,6 @@ function App() {
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           ></Iframe>
         </div>
-        <Disclaimer />
       </div>
     </div>
   );

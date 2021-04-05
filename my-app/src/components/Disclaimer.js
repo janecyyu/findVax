@@ -63,7 +63,7 @@ export default function Disclaimer() {
   );
 
   return (
-    <div>
+    <div className="share">
       {["bottom"].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>Disclaimer</Button>
