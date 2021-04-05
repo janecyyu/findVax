@@ -29,10 +29,7 @@ export default function Intro() {
       <p>
         {" "}
         <span style={{ fontWeight: "bold" }}>Checked Pharmacies:</span>{" "}
-        Albertsons, Community (Walgreens), CVS, Dominguez (Walgreens), Kroger
-        COVID, Pak 'n Save, Pavilions, Pharmaca, Pioneer (Walgreens), Ralphs,
-        Rite Aid, Safeway, Vons, Walgreens, Walgreens Specialty Pharmacy,
-        Walmart
+        Albertsons, CVS, Pharmaca, Rite Aid, Safeway, Walgreens, Walmart
       </p>
       <p>
         {" "}
