@@ -12,7 +12,7 @@ function App() {
         <p>
           Otherwise, you can also check:{" "}
           <a
-            href="https://healthy.kaiserpermanente.org/southern-california/health-wellness/coronavirus-information/covid-vaccine"
+            href="https://healthy.kaiserpermanente.org/northern-california/health-wellness/coronavirus-information/covid-vaccine"
             target="_blank"
             rel="noreferrer"
           >
