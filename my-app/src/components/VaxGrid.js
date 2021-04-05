@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 import axios from "axios";
+import React, { useEffect, useState } from "react";
 import zipCodes from "../data/zipCodes";
 import VaxCard from "./VaxCard";
-import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
 export default function Vaxgrid() {
   const [clinics, setClinics] = useState([]);
@@ -20,8 +20,6 @@ export default function Vaxgrid() {
       })
       .catch((err) => console.log(err));
   }, []);
-
-  console.log(clinics);
 
   return (
     <div className="grid">
