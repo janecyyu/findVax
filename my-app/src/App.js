@@ -1,3 +1,4 @@
+import TwitterIcon from "@material-ui/icons/Twitter";
 import Iframe from "react-iframe";
 import "./App.css";
 import Intro from "./components/Intro";
@@ -49,6 +50,30 @@ function App() {
             allowfullscreen="true"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           ></Iframe>
+          <a
+            class="twitter-timeline"
+            href="https://twitter.com/VaxBay?ref_src=twsrc%5Etfw"
+            style={{
+              background: "rgb(29, 161, 242)",
+              color: "white",
+              fontFamily: "Helvetica Neue",
+              height: "20px",
+              borderRadius: "3px",
+              fontSize: "0.1rem",
+              width: "80px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <TwitterIcon />
+            @VaxBay
+          </a>{" "}
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
         </div>
       </div>
     </div>
