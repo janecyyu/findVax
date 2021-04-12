@@ -34,10 +34,12 @@ code {
   justify-content: center;
 }
 
+/* Header */
+
 .logo{
   font-family: 'Satisfy', cursive;
   text-decoration: none;
-  color: black;
+  color: rgb(57, 57, 57);
   text-align: center;
   font-size: 2rem;
 }
@@ -46,6 +48,8 @@ code {
   margin:5px;
   font-family: 'EB Garamond', serif;
   font-size: 1rem;
+  color: rgb(57, 57, 57);
+
 }
 
 .header{
@@ -55,3 +59,35 @@ code {
   margin: 3rem 0;
   flex-direction: column;
 }
+
+.menu{
+  margin-top: 2%;
+  width: 80vw;
+  height: 5vh;
+  border: 1px solid rgb(0, 0, 0);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+
+.about{
+  font-family: 'EB Garamond', serif;
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+  width: 40%;
+}
+
+.about-container{
+  flex-grow: 2;
+}
+
+.twitter{
+  flex-grow: 1.9;
+}
+.twitter:hover, .about:hover{
+  opacity: 80%;
+  transition-duration: 0.2s;
+}
+
