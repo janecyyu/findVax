@@ -29,7 +29,7 @@ export default function Intro() {
       <p>
         {" "}
         <span style={{ fontWeight: "bold" }}>Checked Pharmacies:</span>{" "}
-        Albertsons, CVS, Pharmaca, Rite Aid, Safeway, Walgreens, Walmart
+        Albertsons, CVS, Pharmaca, Rite Aid, Safeway, Walgreens, Walmart, Costco
       </p>
       <p>
         {" "}
