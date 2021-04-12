@@ -91,3 +91,18 @@ code {
   transition-duration: 0.2s;
 }
 
+/* appointments container */
+.apptBox{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 8%;
+}
+
+.appt{
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid red;
+  margin-bottom: 5%;
+}

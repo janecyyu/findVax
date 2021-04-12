@@ -19,14 +19,14 @@ export default function Intro() {
         Hopefully, this project can help our neighbors in the bay area find the
         closest vaccine appointments to us. 
       </p>
-      <div>
+      {/* <div>
         <FavoriteBorderIcon />
         <LocalFloristIcon />
         <InsertEmoticonIcon />
         <FavoriteIcon />
         <FavoriteBorderIcon />
-      </div>
-      <p>
+      </div> */}
+      {/* <p>
         {" "}
         <span style={{ fontWeight: "bold" }}>Checked Pharmacies:</span>{" "}
         Albertsons, CVS, Pharmaca, Rite Aid, Safeway, Walgreens, Walmart, Costco
@@ -36,7 +36,7 @@ export default function Intro() {
         <span style={{ fontWeight: "bold" }}>Checked Areas:</span> San
         Francisco, San Mateo County, Santa Clara County,
         <br /> Contra Costa County, Alameda County
-      </p>
+      </p> */}
       <p>
         <span style={{ fontWeight: "bold" }}>Note that:</span> Due to high
         demand, we cannot guarantee 100% the availabilities are up to date, but

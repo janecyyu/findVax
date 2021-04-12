@@ -3,13 +3,15 @@ import Iframe from "react-iframe";
 import "./App.css";
 import Intro from "./components/Intro";
 import VaxGrid from "./components/VaxGrid";
+import ApptGrid from "./components/ApptGrid";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <Intro />
-        <VaxGrid />
+        {/* <Intro /> */}
+        {/* <VaxGrid /> */}
+        <ApptGrid />
         <p>
           Otherwise, you can also check:{" "}
           <a

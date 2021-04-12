@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Iframe from "react-iframe";
 import TwitterIcon from "@material-ui/icons/Twitter";
 
 export default function Header() {
