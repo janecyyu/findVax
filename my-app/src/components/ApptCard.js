@@ -2,7 +2,6 @@ import React from "react";
 import Button from "./Buttons";
 
 export default function ApptCard(props) {
-  console.log(props.props);
   return (
     <div className="appt">
       <h3>{props.props.properties.name}</h3>{" "}

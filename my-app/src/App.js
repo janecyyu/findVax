@@ -41,42 +41,6 @@ function App() {
             Vaccine Notifier
           </a>
         </p>
-        <div className="share">
-          <Iframe
-            src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.vaxbay.com%2F&layout=button&size=small&width=60&height=20&appId"
-            width="60"
-            height="20"
-            style={{ border: "none", overflow: "hidden" }}
-            scrolling="no"
-            frameborder="0"
-            allowfullscreen="true"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          ></Iframe>
-          <a
-            class="twitter-timeline"
-            href="https://twitter.com/VaxBay?ref_src=twsrc%5Etfw"
-            style={{
-              background: "rgb(29, 161, 242)",
-              color: "white",
-              fontFamily: "Helvetica Neue",
-              height: "20px",
-              borderRadius: "3px",
-              fontSize: "0.1rem",
-              width: "80px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <TwitterIcon />
-            @VaxBay
-          </a>{" "}
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charset="utf-8"
-          ></script>
-        </div>
       </div>
     </div>
   );

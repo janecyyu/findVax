@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: 'EB Garamond', serif;
-
+  font-size: 1.2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -101,7 +101,7 @@ code {
 
 .appt{
   width: 15rem;
-  height: 10rem;
+  height: 13rem;
   border-radius: 5px;
   border: 1px solid rgb(124, 186, 211);
   margin-bottom: 5%;

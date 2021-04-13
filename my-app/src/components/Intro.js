@@ -26,17 +26,16 @@ export default function Intro() {
         <FavoriteIcon />
         <FavoriteBorderIcon />
       </div> */}
-      {/* <p>
+      <p>
         {" "}
-        <span style={{ fontWeight: "bold" }}>Checked Pharmacies:</span>{" "}
-        Albertsons, CVS, Pharmaca, Rite Aid, Safeway, Walgreens, Walmart, Costco
+        <span style={{ fontWeight: "bold" }}>Checked Pharmacies:</span> CVS,
+        Pharmaca, Rite Aid, Safeway, Walgreens, Walmart, Costco
       </p>
       <p>
         {" "}
-        <span style={{ fontWeight: "bold" }}>Checked Areas:</span> San
-        Francisco, San Mateo County, Santa Clara County,
-        <br /> Contra Costa County, Alameda County
-      </p> */}
+        <span style={{ fontWeight: "bold" }}>Checked Counties:</span> San
+        Francisco, San Mateo, Santa Clara, Alameda
+      </p>
       <p>
         <span style={{ fontWeight: "bold" }}>Note that:</span> Due to high
         demand, we cannot guarantee 100% the availabilities are up to date, but
