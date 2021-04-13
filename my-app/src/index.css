@@ -86,7 +86,7 @@ code {
   flex-grow: 1.9;
 }
 .twitter:hover, .about:hover{
-  opacity: 80%;
+  color: gray;
   transition-duration: 0.2s;
 }
 
