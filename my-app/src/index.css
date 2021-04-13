@@ -85,6 +85,7 @@ code {
 .twitter{
   flex-grow: 1.9;
 }
+
 .twitter:hover, .about:hover{
   color: gray;
   transition-duration: 0.2s;
@@ -109,4 +110,8 @@ code {
   display: flex;
   flex-direction:column;
   justify-content: space-evenly;
+}
+
+.update-time{
+  font-size: 0.9rem;
 }

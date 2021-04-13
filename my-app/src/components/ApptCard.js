@@ -2,6 +2,14 @@ import React from "react";
 import Button from "./Buttons";
 
 export default function ApptCard(props) {
+  let time =
+    props.props.properties.appointments_last_fetched.slice(0, 10) +
+    " " +
+    props.props.properties.appointments_last_fetched.slice(11, 19) +
+    "+0000";
+
+  var a = time.split(/[^0-9]/);
+  var d = new Date(a[0], a[1] - 1, a[2], a[3], a[4] - 420, a[5]);
   return (
     <div className="appt">
       <h3>{props.props.properties.name}</h3>{" "}
@@ -18,6 +26,11 @@ export default function ApptCard(props) {
       >
         <Button />
       </a>
+      <p className="update-time">
+        {" "}
+        Last updated on
+        <br /> {d.toString().slice(0, 21)} PDT
+      </p>
     </div>
   );
 }
