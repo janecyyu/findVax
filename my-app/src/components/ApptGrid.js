@@ -20,17 +20,44 @@ export default function ApptGrid() {
       })
       .catch((err) => console.log(err));
   }, []);
+
+  function handleChange(e) {
+    e.preventDefault();
+    console.log(e.target.value);
+  }
+
   return (
-    <div className="apptBox">
-      {clinics.length > 0 ? (
-        clinics.map((clinic) => {
-          return <ApptCard props={clinic} />;
-        })
-      ) : (
-        <p>
-          We're Sorry! There are no available appointments now, come back later!
-        </p>
-      )}
+    <div>
+      {/* <div className="filter">
+        <input
+          id="ck1"
+          type="checkbox"
+          name="county"
+          value="Santa Clara"
+          onChange={handleChange}
+        />
+        <label>Santa Clara</label>{" "}
+        <input
+          id="ck2"
+          type="checkbox"
+          name="county"
+          value="San Mateo"
+          onChange={handleChange}
+        />
+        <label>San Mateo</label>
+      </div> */}
+      <div className="apptBox">
+        {clinics.length > 0 ? (
+          clinics.map((clinic) => {
+            return <ApptCard props={clinic} />;
+          })
+        ) : (
+          <p>
+            We're Sorry! There are no available appointments now, come back
+            later!
+          </p>
+        )}
+      </div>
     </div>
   );
 }
