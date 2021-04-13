@@ -12,7 +12,7 @@ export default function ApptCard(props) {
   var d = new Date(a[0], a[1] - 1, a[2], a[3], a[4] - 420, a[5]);
   return (
     <div className="appt">
-      <h3>{props.props.properties.name}</h3>{" "}
+      <h3>{props.props.properties.provider_brand_name}</h3>{" "}
       <p className="address">
         {props.props.properties.address}
         {", "}
