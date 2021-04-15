@@ -15,37 +15,13 @@ export default function ApptGrid() {
             d.properties.appointments_available === true &&
             zipCodes.includes(parseInt(d.properties.postal_code))
         );
-        console.log(data);
         setClinics(data);
       })
       .catch((err) => console.log(err));
-  }, []);
-
-  function handleChange(e) {
-    e.preventDefault();
-    console.log(e.target.value);
-  }
+  }, [setClinics]);
 
   return (
     <div>
-      {/* <div className="filter">
-        <input
-          id="ck1"
-          type="checkbox"
-          name="county"
-          value="Santa Clara"
-          onChange={handleChange}
-        />
-        <label>Santa Clara</label>{" "}
-        <input
-          id="ck2"
-          type="checkbox"
-          name="county"
-          value="San Mateo"
-          onChange={handleChange}
-        />
-        <label>San Mateo</label>
-      </div> */}
       <div className="apptBox">
         {clinics.length > 0 ? (
           clinics.map((clinic) => {

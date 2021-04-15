@@ -28,9 +28,10 @@ export default function About() {
       </p>
       <br />
       <h1>Team</h1>
-      <p>
-        Jane Yu 👩‍💻, grad from bootcamp, hunting for her first web developer job!
-      </p>
+      <p>Jane Yu, full-stack web developer.</p>
+      <br />
+      <h1>Huge Thank</h1>
+      <p>Leesan Kwok, UI/UX advisor.</p>
       <br />
 
       <h1>Contact</h1>

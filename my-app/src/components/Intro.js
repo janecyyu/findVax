@@ -34,7 +34,7 @@ export default function Intro() {
       <p>
         {" "}
         <span style={{ fontWeight: "bold" }}>Checked Counties:</span> San
-        Francisco, San Mateo, Santa Clara, Alameda
+        Francisco, San Mateo, Santa Clara, Alameda, Contra Costa
       </p>
       <p>
         <span style={{ fontWeight: "bold" }}>Note that:</span> Due to high

@@ -13,6 +13,7 @@ export default function Header() {
         <a
           className="twitter"
           href="https://twitter.com/VaxBay?ref_src=twsrc%5Etfw"
+          target="_blank"
         >
           <TwitterIcon style={{ color: "rgb(58, 154, 169)" }} />
         </a>

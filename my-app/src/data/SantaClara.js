@@ -1,4 +1,4 @@
-const santa_clara_zip_codes = [
+const santaClara = [
   94022,
   94024,
   94028,
