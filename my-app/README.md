@@ -8,4 +8,4 @@ VaxBay is a COVID-19 vaccines appointments tracker, and the data is as up to dat
 
 Live link [VaxBay](https://www.vaxbay.com/).
 
-![Screen shot](./screenshot)
+![Screen shot](screenshot.jpg)
