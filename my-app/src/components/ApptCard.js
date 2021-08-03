@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "./Buttons";
 
+// ApptCard displays the details of each available appointment: pharmacyName, address, booking_link, update_time
+
 export default function ApptCard(props) {
   let time =
     props.props.properties.appointments_last_fetched.slice(0, 10) +

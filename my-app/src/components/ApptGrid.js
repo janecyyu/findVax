@@ -3,6 +3,8 @@ import axios from "axios";
 import zipCodes from "../data/zipCodes";
 import ApptCard from "../components/ApptCard";
 
+// This component is a container of the appointment cards, will pass the pharmacies data into "ApptCard"
+
 export default function ApptGrid() {
   const [clinics, setClinics] = useState([]);
   useEffect(() => {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -47,6 +48,7 @@ export default function About() {
         Come to say hi or share your "Got my vaccine" sticker!
       </p>
       <br />
+      <Link to="/">Back To Home</Link>
     </div>
   );
 }

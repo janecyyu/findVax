@@ -1,14 +1,11 @@
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
-import LocalFloristIcon from "@material-ui/icons/LocalFlorist";
 import React from "react";
+
+// This component is a introduction of the app, VaxBay with: intro, checked pharmacies, checked counties and note
 
 export default function Intro() {
   return (
     <div className="intro">
       <p>
-        
         <span style={{ color: "red", fontWeight: "bold", fontSize: "1.2rem" }}>
           VaxBay
         </span>{" "}
@@ -19,13 +16,6 @@ export default function Intro() {
         Hopefully, this project can help our neighbors in the bay area find the
         closest vaccine appointments to us. 
       </p>
-      {/* <div>
-        <FavoriteBorderIcon />
-        <LocalFloristIcon />
-        <InsertEmoticonIcon />
-        <FavoriteIcon />
-        <FavoriteBorderIcon />
-      </div> */}
       <p>
         {" "}
         <span style={{ fontWeight: "bold" }}>Checked Pharmacies:</span> CVS,

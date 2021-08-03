@@ -5,6 +5,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
 import React from "react";
 
+// A disclaimer at the end of the app
+
 const useStyles = makeStyles({
   list: {
     width: 250,
